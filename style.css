@@ -1,0 +1,47 @@
+html, body {
+   margin: 0;
+   padding: 0;
+   background-color: #aaa;
+} 
+
+body {
+  background: rgb(16, 113, 255);
+  background: linear-gradient(
+    0deg,
+    rgb(96, 153, 100) 0%,
+    rgb(55, 111, 200) 100%
+  );
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.relogio {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.display {
+    background-color: rgb(200, 200, 200);
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 10px;
+    color: rgb(1, 1, 1);
+    font-size: 7rem;
+    border: 10px solid rgb(200, 0, 0);
+    font-family: 'Qahiri', sans-serif;
+}
+
+footer {
+    font-size: 2rem;
+    margin-top: 10px;
+    color: #333;
+    font-family: 'Barlow Condensed', sans-serif;
+}
